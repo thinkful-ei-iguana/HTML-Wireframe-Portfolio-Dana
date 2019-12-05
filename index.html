@@ -1,56 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>HTML wireframe</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
-    <link rel="stylesheet" type="text/css" href="index.css">
-</head>
-<body>
-    <nav role="navigation">Nav</nav>
-    <main role="main">
-        <header role="banner">
-            <h1>Hero</h1>
-            <h2 id="Hi! I'm Dana(pronounced Duh-nah). I'm a full-stack developer & and a design geek!"></h2>
-            <img id="headshot">
-            <nav class="navbar">
-                <ul>
-                    <li>  Portfolio </li>
-                    <li>  Bio  </li>
-                    <li>  Get in touch!  </li>
-                    <li>  Gtihub  </li>
-                </ul>
-            </nav>
-        </header>
+  <head>
+    <title>Lorem, ipsum dolor.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css"> -->
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link
+      href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo"><span>LOR</span><span>EMS</span></div>
+      <h1>
+        Lorem ipsum dolor sit.
+        <span class="breakflex">(Lorem, ipsum dolor.).</span>
+      </h1>
+      <h2 class="hero-sub">
+        Lorem ipsum dolor sit amet & Lorem ipsum dolor sit.
+      </h2>
+    </header>
 
-        <contact class="sidebar">
-            Contact Info:
-            contact: dtzinatbakhsh@gmail.com
-            github: github.com/MrNanosh
-
-        </contact>
-
-        <section id="bio">
-            <p>Hi! I'm Dana & I love tough problems. Let me join in on the fun on your next project. I'm more than a fullstack developer; I've been into problem-solving since I first learned how to play chess. I just did a bootcamp with Thinkful, so I'm equiped with the main tools of the web and itching to put them to good use.</p>
-            <p>When I'm not coding I'm out there getting inspired: whether it's with art, the great outdoors or just riding my bike down the trail. I like good music and learning about other people's culture when I'm relaxing to get myself in the mind of other's. The web was built for more than one person so knowing others really helps me make interfaces a better place.</p>
-            
+    <main>
+      <nav class="navbar">
+        <a href="#portfolio"> Portfolio </a>
+        <a href="#bio"> Bio </a>
+        <a href="" target="_blank"> Github </a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <section id="portfolio">
+        <section class="project">
+          <h3>Lorem, ipsum. Project 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+            consectetur eos tenetur placeat libero, nostrum accusamus similique
+            ut nisi voluptates ullam odit esse sed! Dolor expedita facere
+            consequatur repellat cumque reprehenderit alias, rerum fugiat
+            voluptatem consequuntur accusantium neque, quas omnis?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+            laborum!
+          </p>
+          <p class="buttonbox">
+            <a href="https://something.com" class="button" target="_blank"
+              >Repo lorem</a
+            ><a href="https://something.com" class="button" target="_blank"
+              >Live Site Lorem</a
+            >
+          </p>
+          <div class="photobox">
+            <img src="https://picsum.photos/400/250" alt="fake app photo" />
+            <img src="https://picsum.photos/400/250" alt="fake app photo" />
+            <img src="https://picsum.photos/400/250" alt="fake app photo" />
+            <img src="https://picsum.photos/400/250" alt="fake app photo" />
+            <img src="https://picsum.photos/400/250" alt="fake app photo" />
+          </div>
+        <section class="project">
+          <h3>Lorem, ipsum. Project 2</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+            consectetur eos tenetur placeat libero, nostrum accusamus similique
+            ut nisi voluptates ullam odit esse sed! Dolor expedita facere
+            consequatur repellat cumque reprehenderit alias, rerum fugiat
+            voluptatem consequuntur accusantium neque, quas omnis?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+            laborum!
+          </p>
+          <p class="buttonbox">
+            <a href="https://something.com" class="button" target="_blank"
+              >Repo lorem</a
+            ><a href="https://something.com" class="button" target="_blank"
+              >live site lorem</a
+            >
+          </p>
+          <div class="photobox">
+            <img src="https://picsum.photos/400/250" alt="fake app photo" />
+            <img src="https://picsum.photos/400/250" alt="fake app photo" />
+            <img src="https://picsum.photos/400/250" alt="fake app photo" />
+            <img src="https://picsum.photos/400/250" alt="fake app photo" />
+            <img src="https://picsum.photos/400/250" alt="fake app photo" />
+          </div>
         </section>
+      </section>
 
-        <section id="portfolio">
-            <section class="project">
-                <h3>Quiz App</h3>
-              <p>  Proof of concept for DOM manipulation single-page client-side apps. Using vanilla javascript that works in most up-to-date browsers but using simple JQuery to handle user feedback and DOM manipulation of the views. This app was designed with a mobile-first approach.</p>
-                <p>JQuery, vanilla Javascript, a11y approved HTML 5 & CSS.</p>
-               <p> https://thinkful-ei-iguana.github.io/DanaJackQuizApp/</p>
-               <p> https://github.com/thinkful-ei-iguana/DanaJackQuizApp/</p>
-            </section>
-            <section>
-                Section 4
-            </section>
-            
-        </section>
-        
+      <section id="contact sidebar">
+        <address class="sidebar contact">
+          Contact Info:<br />
+          <a href="mailto:someone@something.com"
+            >contact:someone@something.com</a
+          ><br />
+          <a href="https://github.com/somebody"
+            ><i class="fa fa-github-square icons"></i></a
+          ><br />
+          <a
+            href="https://www.linkedin.com/in/somebody"
+            class="fa fa-linkedin-square icons"
+            target="_blank"
+          ></a
+          ><br />
+        </address>
+      </section>
+
+      <section id="bio">
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. In quos odit
+          necessitatibus facere perspiciatis dignissimos? Sapiente autem
+          recusandae temporibus aliquid, labore doloremque quos sunt sit unde
+          optio incidunt sed voluptates dolor quo placeat nostrum quas earum
+          soluta! Ad, libero ea ipsam eaque eligendi, tenetur a, voluptatum rem
+          excepturi illum molestias!
+        </p>
+        <p>
+          Corrupti eum beatae officiis at doloremque culpa ratione saepe, magni,
+          soluta, est incidunt obcaecati magnam aut pariatur ex. Ex itaque
+          consequatur consectetur iusto. Sequi expedita voluptate ut dolor
+          culpa. Atque natus amet ullam eum? Sapiente consequatur suscipit,
+          doloremque sequi corrupti, cumque dolore expedita magni unde, nesciunt
+          aspernatur ab a voluptatibus.
+        </p>
+      </section>
     </main>
-    <footer role="Copyright ">Footer</footer>
-</body>
+    <footer>Dana Zinatbakhsh copyright 2019</footer>
+  </body>
 </html>
